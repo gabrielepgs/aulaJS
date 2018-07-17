@@ -1,0 +1,13 @@
+String "" ou ''
+numero 1, 2, 3, 4...
+Array, [1, 2, 3] acessa o indice pelo '[]' contando a partir de 04
+Objeto
+Boolean true or false
+
+
+var -  você consegue usala em qualquer parte do codigo 
+let - você consegue usala apenas dentro da função 
+const -  atribui um valor constante a variavel ------------ const minhaidade = 23 ----- Esse valor não pode ser alterado 
+typeof - informa o tipo da variavel Ex: alert(typeof(meunome)); ********* alert(typeof(minhaidade));
+
+
