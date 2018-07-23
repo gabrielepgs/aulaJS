@@ -57,3 +57,79 @@ innerHTML =  manipula o HTML no JS.
 //   alert ("Numeros: "+ Data)
 
 
+
+
+
+
+materia de JS no link https://codeshare.io/estacaohack6revisao
+
+----------------------------------------------------------------------------
+//para:wesley
+var numbers=[2,7,1,4,5,9,6,3,0,8];
+numbers.sort()
+console.log(numbers)
+----------------------------------------------------------------------------
+
+OIE NENÊMS <3n
+
+-----------------------------------------------------------------------------
+
+////JS
+let paragrafo = document.querySelector("p");
+let paragrafos = document.querySelectorAll("p");
+let botao = document.querySelector("button");
+let sonic = document.querySelector("#sonic");
+
+botao.onclick = pintarAzul;
+sonic.onclick = correr;
+
+//onmouseenter
+//onmouseleave
+//onmouseover
+//onkeydown
+//onblur
+
+function pintarAzul(){
+    for(let p of paragrafos){
+        p.style.color = "blue";
+    }
+}
+
+function correr(){
+    sonic.style.transform = "translateX(1000px) scale(0.1)";
+}
+
+//CSS
+
+#sonic{
+    width: 100px;
+    transition: 3s;
+}
+
+x
+///HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <p>Cat Ipsum</p>
+        <p>Mussum Ipsum</p>
+        <p>Dog Ipsum</p>
+        <p>Pudim Ipsum</p>
+        <p>Xablau Ipsum</p>
+        
+        <!-- <button onclick="pintarAzul()">Clique me!</button> -->
+        <button>Clique me!</button>
+    </div>
+    
+    
+</body>
+</html>
